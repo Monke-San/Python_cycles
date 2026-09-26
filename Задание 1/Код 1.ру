@@ -1,0 +1,27 @@
+# Задание 1(4 вариант)
+
+
+import math
+
+
+x_1 = float(input("Введите начало: "))
+x_2 = float(input("Введите конец: "))
+dx = float(input("Введите шаг: "))
+
+print("x , y")
+
+while x_1 <= x_2:
+    if x_1 >= -4 and x_1 <= -2:
+        y = x_1 + 3
+    elif x_1 > -2 and x_1 <= 4:
+        y = x_1 * -0.5
+    elif x_1 > 4 and x_1 <= 6:
+        y = - 2
+    elif x_1 > 6 and x_1 <=10:
+        y = math.sqrt(4 - (x_1 - 8) **2)
+    else:
+        y = "Не определенно"
+    
+    print(x_1 , y)
+
+    x_1 = x_1 + dx

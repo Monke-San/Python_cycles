@@ -1,0 +1,10 @@
+# Задание 2(4 вариант)
+
+for num in range(10,100):
+    a = num // 10
+    b = num % 10
+    
+    ab = a**2 + b**2
+    
+    if ab % 17 == 0:
+        print(num)
