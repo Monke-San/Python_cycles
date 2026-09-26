@@ -8,7 +8,7 @@ x_1 = float(input("Введите начало: "))
 x_2 = float(input("Введите конец: "))
 dx = float(input("Введите шаг: "))
 
-print("x , y")
+print("x  y")
 
 while x_1 <= x_2:
     if x_1 >= -4 and x_1 <= -2:
